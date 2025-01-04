@@ -1,0 +1,62 @@
+unit Controllers.Order;
+
+interface
+
+uses Horse,
+     System.JSON,
+     System.SysUtils,
+     DM;
+
+     procedure RegistrarRotas;
+     procedure ListarOrder(Req: THorseRequest; Res: THorseResponse; Next: Tproc);
+     procedure InsertOrder(Req: THorseRequest; Res: THorseResponse; Next: Tproc);
+
+implementation
+
+procedure RegistrarRotas;
+begin
+    // Configurações de endpoints do Horse
+    THorse.Get('/listarorder',  ListarOrder);
+    THorse.Post('/postorder',  InsertOrder);
+end;
+
+procedure ListarOrder(Req: THorseRequest; Res: THorseResponse; Next: Tproc);
+var
+  dm:TDtm;
+begin
+      try
+          dm  := TDtm.Create(nil);
+          Res.Send(dm.ListarProduct()).Status(200);
+      finally
+          FreeAndNil(dm);
+      end;
+end;
+
+procedure InsertOrder(Req: THorseRequest; Res: THorseResponse; Next: Tproc);
+var
+  dm:TDtm;
+  body: TJSONObject;
+
+  value: Currency;
+begin
+      try
+        try
+            dm          := TDtm.Create(nil);
+            body        := Req.Body<TJSONObject>;
+
+
+            value       := body.GetValue<Currency>('value', 0);
+
+
+            Res.Send(dm.InsertProduct(value)).Status(201);
+
+        except
+          on ex:exception do
+            Res.Send('Houve  um erro:' + ex.Message).Status(502);     //DEU ERRO
+        end;
+      finally
+          FreeAndNil(dm);
+      end;
+end;
+
+end.

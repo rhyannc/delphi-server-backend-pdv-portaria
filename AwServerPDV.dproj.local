@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024/12/30 12:15:43.895,=C:\Users\rhyan\OneDrive\OTHER\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/12/30 12:17:31.184,=C:\Users\rhyan\OneDrive\OTHER\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/30 12:17:42.251,=C:\Users\rhyan\OneDrive\OTHER\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/30 12:19:27.256,C:\PDV\BACKEND\DM.dfm=C:\Users\rhyan\OneDrive\OTHER\Documentos\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2024/12/30 12:19:27.256,C:\PDV\BACKEND\DM.pas=C:\Users\rhyan\OneDrive\OTHER\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/30 12:20:19.414,C:\PDV\BACKEND\UnitPrincipal.pas=C:\Users\rhyan\OneDrive\OTHER\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/12/30 12:20:19.414,C:\PDV\BACKEND\UnitPrincipal.dfm=C:\Users\rhyan\OneDrive\OTHER\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/12/30 12:20:29.744,C:\PDV\BACKEND\AwServerPDV.dproj=C:\Users\rhyan\OneDrive\OTHER\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/12/30 20:27:11.275,=C:\PDV\BACKEND\Unit1.pas</Transaction>
+    <Transaction>2024/12/30 20:46:12.054,C:\PDV\BACKEND\Controller\Controller.Product.pas=C:\PDV\BACKEND\Unit1.pas</Transaction>
+    <Transaction>2024/12/30 20:46:24.385,=C:\PDV\BACKEND\Unit1.pas</Transaction>
+    <Transaction>2024/12/30 20:47:11.139,C:\PDV\BACKEND\Controller\Controller.Order.pas=C:\PDV\BACKEND\Unit1.pas</Transaction>
+    <Transaction>2024/12/30 20:59:14.129,C:\PDV\BACKEND\Controller\Controllers.Order.pas=C:\PDV\BACKEND\Controller\Controller.Order.pas</Transaction>
+    <Transaction>2024/12/30 20:59:19.535,C:\PDV\BACKEND\Controller\Controllers.Product.pas=C:\PDV\BACKEND\Controller\Controller.Product.pas</Transaction>
+    <Transaction>2024/12/31 10:06:42.133,=C:\PDV\BACKEND\Unit1.pas</Transaction>
+    <Transaction>2024/12/31 10:07:53.193,C:\PDV\BACKEND\Controller\Controllers.Relatorios.pas=C:\PDV\BACKEND\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

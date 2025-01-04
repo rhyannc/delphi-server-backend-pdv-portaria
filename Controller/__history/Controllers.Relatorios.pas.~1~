@@ -1,0 +1,23 @@
+unit Controllers.Relatorios;
+
+interface
+
+uses Horse,
+     System.JSON,
+     System.SysUtils,
+     DM;
+
+     procedure RegistrarRotas;
+     procedure ReportOrder(Req: THorseRequest; Res: THorseResponse; Next: Tproc);
+
+implementation
+
+procedure RegistrarRotas;
+begin
+    // Configurações de endpoints do Horse
+    THorse.Post('/repororder',  ReportOrder);
+
+
+end;
+
+end.
